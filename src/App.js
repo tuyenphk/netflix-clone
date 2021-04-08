@@ -9,7 +9,7 @@ function App() {
       <Row 
         title="NETFLIX ORIGINALS" 
         fetchUrl={requests.fetchNetflixOriginals} 
-        isLargeRow
+        isLargeRow={true}
       />
       <Row title="Trending now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
